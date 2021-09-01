@@ -1,7 +1,7 @@
 const invoices = require("../json/invoices.json");
 const play = require("../json/plays.json");
 
-function statement(invoice, plays) {
+function statement(invoice, plays) { 
     let totalAmount = 0;
     let volumeCredits = 0;
     let result = `청구 내역 (고객명: ${invoice.customer})\n`;
